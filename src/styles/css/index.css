@@ -19,4 +19,36 @@
   padding: 15px;
 }
 
+.makeStyles-root-1 .makeStyles-navbarcolor-4 {
+  position: fixed;
+}
+
+.login {
+  background-image: url("../background.jpg");
+  background-position: 0 0;
+  background-repeat: repeat-y;
+  display: flex;
+  justify-content: center;
+  height: 100vh;
+}
+.login .login-fields {
+  width: 300px;
+  margin: auto;
+  height: 300px;
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+}
+.login .login-fields .MuiInputBase-root {
+  margin-bottom: 25px;
+}
+.login .login-fields .recover-password {
+  padding-left: 49%;
+  font-size: small;
+}
+.login .login-fields .btn-login {
+  width: 50%;
+  margin: 25px auto;
+}
+
 /*# sourceMappingURL=index.css.map */
