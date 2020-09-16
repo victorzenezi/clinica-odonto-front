@@ -1,0 +1,23 @@
+.footerPai{
+  width: 100%;
+  height: 300px;
+  display:flex;
+  flex-direction: column;
+  position: fixed;
+  left: 0;
+  bottom: 0;
+
+ .row{
+   display:flex;
+   flex-direction: row;
+   width: 100%;
+  height: 150px;
+  
+
+div{
+  width: 33%;
+  height: 150px;
+  padding: 15px;
+  }
+ }
+}
