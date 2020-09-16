@@ -3,7 +3,7 @@ import React from 'react';
 import { FaFacebook } from 'react-icons/fa'
 import { FiPhone } from 'react-icons/fi';
 import { BiMap } from 'react-icons/bi';
-// import { Container } from './styles';
+
 
 export default function Footer() {
   const [spacing, setSpacing] = React.useState<GridSpacing>(2);
