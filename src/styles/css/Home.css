@@ -1,0 +1,74 @@
+.first-section {
+  flex-grow: 1;
+  background-color: #edf6f9;
+  height: 700px;
+}
+.first-section h4 {
+  font-size: 18px;
+  line-height: 10px;
+  font-weight: 300;
+  color: #8d8d8d;
+  letter-spacing: 0px;
+  font-family: "Roboto";
+  visibility: inherit;
+  margin: 0px;
+  padding: 0px;
+  opacity: 1;
+}
+.first-section h2 {
+  min-width: 456px;
+  max-width: 456px;
+  white-space: normal;
+  font-size: 35px;
+  line-height: 25px;
+  font-weight: 300;
+  color: #386fa4;
+  letter-spacing: 0px;
+  font-family: "Roboto";
+  visibility: inherit;
+  transition: none 0s ease 0s;
+  text-align: inherit;
+  border-width: 0px;
+  margin: 0px;
+  padding: 0px;
+  opacity: 1;
+}
+.first-section h3 {
+  padding: 5px 0 10px 0;
+  white-space: normal;
+  line-height: 25px;
+  font-weight: 400;
+  color: #386fa4;
+}
+.first-section .input {
+  width: 350px;
+  padding: 10px 0;
+}
+.first-section .button {
+  background-color: #1db954;
+  color: white;
+  box-shadow: 0 4px 6px rgba(50, 50, 93, 0.11), 0 1px 3px rgba(0, 0, 0, 0.08);
+  padding: 7px 14px;
+}
+.first-section .button:hover {
+  background-color: #18a84a;
+}
+
+.second-section {
+  height: 800px;
+  background-color: #386fa4;
+}
+
+.img-center {
+  display: block;
+  margin: auto;
+  margin-top: 60px;
+}
+
+.form-center {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+/*# sourceMappingURL=Home.css.map */

@@ -11,15 +11,18 @@ const useStyles = makeStyles((theme: Theme) =>
     root: {
       flexGrow: 1,
     },
-    menuButton: {
-      marginRight: theme.spacing(2),
-    },
-    item: {
+    navItem: {
       flexGrow: 1,
+      color: "#386fa4",
+      '&:hover':{
+        textDecoration: "none",
+        cursor: "pointer",
+        color: "#13293d",
+      }
     },
     navbarcolor: {
       backgroundColor: "white",
-      color: "black",
+      color: "#386fa4",
       height: "64px",
       padding: "0px 200px"
     },
@@ -28,7 +31,14 @@ const useStyles = makeStyles((theme: Theme) =>
       padding: "0px 50px"
     },
     btn: {
-      borderColor: "blue"
+      borderColor: "#386fa4",
+      color: "#386fa4",
+      '&:hover':{
+        cursor: "pointer",
+        borderColor: "#13293d",
+        backgroundColor: "#13293d",
+        color: "white"
+      }
     }
   }),
 );
@@ -43,16 +53,18 @@ const Header: React.FC = () => {
             <Typography variant="h6" className={classes.logo}>
               Clinica Odontologica
             </Typography>
-            <Typography align="right" variant="h6" className={classes.item}>
+
+            <Link align="right" variant="h6" className={classes.navItem}>
               Quem somos
-            </Typography>
-            <Link align="right" variant="h6" className={classes.item}>
+            </Link>
+            <Link align="right" variant="h6" className={classes.navItem}>
               Serviços
             </Link>
-            <Link align="right" variant="h6" className={classes.item}>
+            <Link align="right" variant="h6" className={classes.navItem}>
               Unidades
             </Link>
-            <Typography align="right" variant="h6" className={classes.item}>
+
+            <Typography align="right" variant="h6" className={classes.navItem}>
               <Button href="#" size="medium" variant="outlined" className={classes.btn}>
                 Marque uma consulta
               </Button>
