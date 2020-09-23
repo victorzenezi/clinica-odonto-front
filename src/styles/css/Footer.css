@@ -3,9 +3,11 @@
   height: 350px;
   display: flex;
   flex-direction: column;
-  position: fixed;
-  left: 0;
-  bottom: 0;
+  position: relative;
+  bottom: 0px;
+  left: 0px;
+  right: 0px;
+  margin-bottom: 0px;
   background-color: rgba(11, 240, 240, 0.2);
 }
 .footerPai .row {
@@ -31,7 +33,7 @@
 }
 .footerPai .row div {
   width: 33%;
-  height: 200px;
+  height: 150px;
   padding: 10px;
 }
 .footerPai .row div a {

@@ -1,2 +1,11 @@
 @import  'Footer.scss';
-@import '_login'
+@import  'Home.scss';
+@import '_login';
+
+.ml-200 {
+    margin-left: 200px;
+}
+
+.mr-200 {
+    margin-right: 200px;
+}
