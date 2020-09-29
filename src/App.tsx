@@ -12,11 +12,11 @@ function App() {
 
         {/* Rotas */}
         <Switch>
-          <Route path="/">
-            <Home/>
-          </Route>
           <Route path="/login">
             <Login/>
+          </Route>
+          <Route path="/">
+            <Home/>
           </Route>
         </Switch>
     </Router>
