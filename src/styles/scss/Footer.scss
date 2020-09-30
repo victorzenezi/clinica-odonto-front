@@ -9,7 +9,26 @@
     right: 0px;
 	margin-bottom: 0px;
     
-    background-color: rgba($color: rgb(11, 240, 240), $alpha: 0.2);
+		background-color: rgba($color: rgb(11, 240, 240), $alpha: 0.2);
+		
+	.icones{
+		font-size: 35px;
+	}
+	.icon:hover  {
+		background-color:#00ff00!important;
+		border-radius: 55px;
+	}
+
+	.termos{
+		text-align: justify;
+	}
+
+
+	.fatooth, .fiphone, .bimap{
+		font-size: 35px;
+	}
+
+
 
 	.row {
 		display: flex;
@@ -35,6 +54,15 @@
 				margin-top: 20px;
 			}
 
+			.term:hover{
+					text-decoration: underline;
+					color:navy;
+			}
+			.poli:hover{
+				text-decoration: underline;
+				color: navy;
+			}
+
 		div {
 			width: 33%;
 			height: 150px;
@@ -42,9 +70,9 @@
             
             a{
                 text-decoration: none;
-                color: black;
-                
-
+								color: black;
+								font-family: 'Roboto', sans-serif;
+				
             }
 		}
 	}

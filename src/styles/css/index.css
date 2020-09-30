@@ -10,6 +10,19 @@
   margin-bottom: 0px;
   background-color: rgba(11, 240, 240, 0.2);
 }
+.footerPai .icones {
+  font-size: 35px;
+}
+.footerPai .icon:hover {
+  background-color: #00ff00 !important;
+  border-radius: 55px;
+}
+.footerPai .termos {
+  text-align: justify;
+}
+.footerPai .fatooth, .footerPai .fiphone, .footerPai .bimap {
+  font-size: 35px;
+}
 .footerPai .row {
   display: flex;
   flex-direction: row;
@@ -31,6 +44,14 @@
   height: 70px;
   margin-top: 20px;
 }
+.footerPai .row .term:hover {
+  text-decoration: underline;
+  color: navy;
+}
+.footerPai .row .poli:hover {
+  text-decoration: underline;
+  color: navy;
+}
 .footerPai .row div {
   width: 33%;
   height: 150px;
@@ -39,6 +60,7 @@
 .footerPai .row div a {
   text-decoration: none;
   color: black;
+  font-family: "Roboto", sans-serif;
 }
 
 .first-section {
