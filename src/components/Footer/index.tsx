@@ -19,7 +19,7 @@ export default function Footer() {
 		<section className="footerPai">
 			<div className="row">
 				<div>
-					< FaTooth />
+					< FaTooth  className="fatooth"/>
 					<h3>DENTAL OFFICE - UM PRODUTO RH SOFTWARE</h3>
 					<p>O melhor software de gerenciamento para clínicas e consultórios odontológicos foi
 					desenvolvido pela RH Software. A mais completa e inovadora empresa de softwares para a área da saúde no Brasil.
@@ -39,25 +39,28 @@ export default function Footer() {
 			</div>
 			<div className="row">
 				<div>
-					<FiPhone />
+					<FiPhone className="fiphone"/>
 					<h3>Central de atendimento</h3>
 					<p>4002-8922</p>
 					<h3>Segunda a Sexta: 08h às 18h</h3>
 				</div>
 				<div>
-					<BiMap />
+					<BiMap className="bimap"/>
 					<h3>Onde estamos?</h3>
 					<p>R. Cesário Galero, 448 - Tatuapé, São Paulo - SP, 03071-000</p>
-					<h3>www.rhsoftware.com.br</h3>
+					<h3>www.devgroup.com.br</h3>
 				</div>
 				<div>
-					<nav className="Icones">
-						<FaFacebook />
-						<FaInstagramSquare />
-						<AiFillTwitterCircle />
-						<FaYoutubeSquare />
+					<nav className="icones">
+						<FaFacebook className="icon"/>
+						<FaInstagramSquare className="icon"/>
+						<AiFillTwitterCircle className="icon"/>
+						<FaYoutubeSquare className="icon"/>
 					</nav>
-					<h3>Termos de uso | Politicas de Privacidade</h3>
+					<a className="term" href="#">Termos de Uso  </a>
+					<text>|</text>
+					<a className="poli"href="#"> Politicas de Privacidade</a>
+					{/* <h3>Termos de uso | Politicas de Privacidade</h3> */}
 					<p>© 2020 Dental Office</p>
 				</div>
 			</div>
