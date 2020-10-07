@@ -146,6 +146,32 @@
   margin: 25px auto;
 }
 
+.scheduler {
+  display: grid;
+  grid-template-columns: 100%;
+  grid-template-rows: 10% 10% auto;
+}
+.scheduler .scheduler-header {
+  display: grid;
+  grid-template-columns: 25% 25% 25% 25%;
+}
+.scheduler .scheduler-header .scheduler-header-fild-1 {
+  grid-column-start: 1;
+  grid-column-end: 1;
+}
+.scheduler .scheduler-header .scheduler-header-fild-1 .btn-new-register {
+  margin-left: 90px;
+}
+.scheduler .scheduler-header .scheduler-header-fild-2 {
+  grid-column-start: 4;
+  grid-column-end: 4;
+}
+.scheduler .scheduler-body {
+  grid-row-start: 3;
+  grid-row-end: 3;
+  margin: 50px;
+}
+
 .ml-200 {
   margin-left: 200px;
 }

@@ -1,0 +1,30 @@
+.scheduler {
+    display: grid;
+    grid-template-columns: 100%;
+    grid-template-rows: 10% 10% auto;
+
+    .scheduler-header {
+        display: grid;
+        grid-template-columns: 25% 25% 25% 25%;
+
+        .scheduler-header-fild-1 {
+            grid-column-start: 1;
+            grid-column-end: 1;
+
+            .btn-new-register {
+                margin-left: 90px;
+            }
+        }
+
+        .scheduler-header-fild-2 {
+            grid-column-start: 4;
+            grid-column-end: 4;
+        }
+    }
+
+    .scheduler-body {
+        grid-row-start: 3;
+        grid-row-end: 3;
+        margin: 50px;
+    }
+}

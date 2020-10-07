@@ -4,6 +4,9 @@ import GlobalStyles from './styles/GlobalStyles';
 import { BrowserRouter as Router, Switch, Route } from "react-router-dom";
 import Home from './pages/Home';
 import Login from './pages/Login';
+import Schedule from './pages/Schedule/Schedule'
+
+require('dotenv').config()
 
 function App() {
   return (
@@ -12,6 +15,9 @@ function App() {
 
         {/* Rotas */}
         <Switch>
+          <Route path="/agenda">
+            <Schedule/>
+          </Route>
           <Route path="/login">
             <Login/>
           </Route>
